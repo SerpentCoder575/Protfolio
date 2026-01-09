@@ -53,7 +53,7 @@ export default function CTF() {
           <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
             Capture The Flag achievements demonstrating expertise in 
             <span className="text-electric-purple font-semibold"> cryptography</span>, 
-            <span className="text-electric-blue font-semibold"> reverse engineering</span>, and 
+            <span className="text-electric-blue font-semibold"> active directory</span>, and 
             <span className="text-electric-emerald font-semibold"> web exploitation</span>
           </p>
         </div>

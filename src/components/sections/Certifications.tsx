@@ -56,7 +56,7 @@ export default function Certifications() {
             Professional certifications and credentials in 
             <span className="text-electric-blue font-semibold"> cybersecurity</span>, 
             <span className="text-electric-purple font-semibold"> ethical hacking</span>, and 
-            <span className="text-electric-emerald font-semibold"> cloud security</span>
+            <span className="text-electric-emerald font-semibold"> web application security</span>
           </p>
         </div>
 

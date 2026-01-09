@@ -14,10 +14,10 @@ export const skillCategories: SkillCategory[] = [
         name: 'Network Penetration Testing',
         description: 'Comprehensive network security assessment using Nmap, Wireshark, Metasploit, and custom scripts. Experience with internal and external network testing.'
       },
-      { 
-        name: 'Mobile Application Security',
-        description: 'Android and iOS security assessment including static/dynamic analysis, reverse engineering, and runtime manipulation using Frida, MobSF, and custom tools.'
-      },
+      // { 
+      //   name: 'Mobile Application Security',
+      //   description: 'Android and iOS security assessment including static/dynamic analysis, reverse engineering, and runtime manipulation using Frida, MobSF, and custom tools.'
+      // },
       { 
         name: 'API Security Testing',
         description: 'REST/GraphQL API security assessment, authentication bypass, authorization flaws, and rate limiting vulnerabilities using specialized tools and methodologies.'
@@ -57,10 +57,10 @@ export const skillCategories: SkillCategory[] = [
         name: 'SIEM Solutions',
         description: 'Security Information and Event Management using Splunk, ELK Stack, and QRadar for log analysis, threat detection, and incident response.'
       },
-      { 
-        name: 'IDS/IPS Systems',
-        description: 'Intrusion Detection/Prevention systems including Snort, Suricata configuration, rule development, and signature creation for threat detection.'
-      }
+      // { 
+      //   name: 'IDS/IPS Systems',
+      //   description: 'Intrusion Detection/Prevention systems including Snort, Suricata configuration, rule development, and signature creation for threat detection.'
+      // }
     ]
   },
   {
@@ -88,41 +88,41 @@ export const skillCategories: SkillCategory[] = [
         name: 'SQL & Database Security',
         description: 'SQL injection techniques, database security assessment, query optimization, and database hardening across MySQL, PostgreSQL, and MSSQL.'
       },
-      { 
-        name: 'Assembly & Reverse Engineering',
-        description: 'Low-level analysis, malware reverse engineering, binary exploitation, and vulnerability research using IDA Pro, Ghidra, and debugging tools.'
-      }
+      // { 
+      //   name: 'Assembly & Reverse Engineering',
+      //   description: 'Low-level analysis, malware reverse engineering, binary exploitation, and vulnerability research using IDA Pro, Ghidra, and debugging tools.'
+      // }
     ]
   },
-  {
-    title: 'Cloud & DevSecOps',
-    icon: 'Cloud',
-    color: 'blue',
-    skills: [
-      { 
-        name: 'AWS Security Services',
-        description: 'IAM management, Security Groups, CloudTrail analysis, GuardDuty threat detection, and AWS security best practices implementation and assessment.'
-      },
-      { 
-        name: 'Container Security',
-        description: 'Docker and Kubernetes security, container image scanning, runtime protection, and orchestration security using tools like Twistlock and Aqua.'
-      },
-      { 
-        name: 'Infrastructure as Code',
-        description: 'Terraform and CloudFormation security, infrastructure security scanning, and secure deployment pipeline creation with automated security checks.'
-      },
-      { 
-        name: 'CI/CD Security',
-        description: 'Jenkins, GitLab CI, and GitHub Actions security integration, SAST/DAST implementation, and secure software development lifecycle practices.'
-      },
-      { 
-        name: 'Cloud Penetration Testing',
-        description: 'Cloud infrastructure security assessment, misconfiguration detection, privilege escalation, and cloud-specific attack techniques and methodologies.'
-      },
-      { 
-        name: 'Monitoring & Logging',
-        description: 'CloudWatch, Azure Monitor, and GCP logging security analysis, threat detection rule creation, and security metrics dashboard development.'
-      }
-    ]
-  }
+  // {
+  //   title: 'Cloud & DevSecOps',
+  //   icon: 'Cloud',
+  //   color: 'blue',
+  //   skills: [
+  //     { 
+  //       name: 'AWS Security Services',
+  //       description: 'IAM management, Security Groups, CloudTrail analysis, GuardDuty threat detection, and AWS security best practices implementation and assessment.'
+  //     },
+  //     { 
+  //       name: 'Container Security',
+  //       description: 'Docker and Kubernetes security, container image scanning, runtime protection, and orchestration security using tools like Twistlock and Aqua.'
+  //     },
+  //     { 
+  //       name: 'Infrastructure as Code',
+  //       description: 'Terraform and CloudFormation security, infrastructure security scanning, and secure deployment pipeline creation with automated security checks.'
+  //     },
+  //     { 
+  //       name: 'CI/CD Security',
+  //       description: 'Jenkins, GitLab CI, and GitHub Actions security integration, SAST/DAST implementation, and secure software development lifecycle practices.'
+  //     },
+  //     { 
+  //       name: 'Cloud Penetration Testing',
+  //       description: 'Cloud infrastructure security assessment, misconfiguration detection, privilege escalation, and cloud-specific attack techniques and methodologies.'
+  //     },
+  //     { 
+  //       name: 'Monitoring & Logging',
+  //       description: 'CloudWatch, Azure Monitor, and GCP logging security analysis, threat detection rule creation, and security metrics dashboard development.'
+  //     }
+  //   ]
+  // }
 ];

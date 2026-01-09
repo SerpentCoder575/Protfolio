@@ -11,11 +11,10 @@ export default memo(function Skills() {
   // Memoize skills array to prevent recreation on every render
   const skillsArray = useMemo(() => [
     'Ethical Hacking',
-    'Cloud Security',
-    'AI/ML Security',
-    'DevSecOps',
-    'Incident Response',
-    'Threat Intelligence'
+    'Penetration Testing',
+    'Active Directory',
+    'Web Application Security',
+    'OSINT'
   ], []);
 
   const handleCategoryChange = (index: number) => {

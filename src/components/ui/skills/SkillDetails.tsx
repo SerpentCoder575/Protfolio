@@ -94,9 +94,9 @@ export default function SkillDetails({ category, isAnimating }: SkillDetailsProp
 function getCategoryDescription(title: string): string {
   switch(title) {
     case 'Penetration Testing':
-      return 'Comprehensive security assessment capabilities including web application testing, network penetration, mobile security analysis, and API security evaluation. Experienced with industry-standard tools and methodologies.';
+      return 'Comprehensive security assessment capabilities including web application testing, network penetration,  and API security evaluation. Experienced with industry-standard tools and methodologies.';
     case 'Security Tools':
-      return 'Proficient with professional-grade security tools including Burp Suite Pro, Metasploit, Nessus, and various IDS/IPS solutions. Capable of tool customization and automation for enhanced security workflows.';
+      return 'Proficient with professional-grade security tools including Burp Suite Pro, Metasploit, Nessus. Capable of tool customization and automation for enhanced security workflows.';
     case 'Programming':
       return 'Strong programming foundation across multiple languages with focus on security automation, tool development, and scripting. Experienced in building custom security solutions and integrating security into development workflows.';
     case 'Cloud Security':

@@ -18,22 +18,27 @@ export default defineConfig({
   esbuild: {
     drop: ['console', 'debugger'],
   },
-  server: {
-    host: true,
-    port: 5173,
-    allowedHosts: ['amazingmoaaz.online'],
-    headers: {
-      'X-Content-Type-Options': 'nosniff',
-      'X-Frame-Options': 'DENY',
-      'X-XSS-Protection': '1; mode=block',
-      'Referrer-Policy': 'strict-origin-when-cross-origin',
-      'Permissions-Policy': 'camera=(), microphone=(), geolocation=()',
-      'Content-Security-Policy': "default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com; connect-src 'self' https://api.web3forms.com;",
-    },
-    fs: {
-      strict: false,
-    },
+ server: {
+  host: true,
+  port: 5173,
+  allowedHosts: ['amazingmoaaz.online'],
+  watch: {
+    usePolling: true,
+    interval: 1000  // Optional: polls every second for responsiveness
   },
+  headers: {
+    'X-Content-Type-Options': 'nosniff',
+    'X-Frame-Options': 'DENY',
+    'X-XSS-Protection': '1; mode=block',
+    'Referrer-Policy': 'strict-origin-when-cross-origin',
+    'Permissions-Policy': 'camera=(), microphone=(), geolocation=()',
+    'Content-Security-Policy': "default-src 'self' 'unsafe-inline' 'unsafe-eval'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://static.cloudflareinsights.com; connect-src 'self' https://api.web3forms.com;",
+  },
+  fs: {
+    strict: false,
+  },
+},
+
   build: {
     assetsDir: 'assets',
     target: 'esnext',

@@ -47,10 +47,10 @@ export default memo(function About() {
                     Education
                   </h3>
                   <p className="text-lg font-semibold text-slate-200 mb-1">
-                    Bachelor's in Artificial Intelligence
+                    Bachelor's in Software Engineering
                   </p>
                   <p className="text-slate-400">
-                    Delta University • Currently Enrolled
+                    Daffodil international University • Currently Enrolled
                   </p>
                 </div>
               </div>
@@ -64,13 +64,13 @@ export default memo(function About() {
                 </div>
                 <div className="flex-1">
                   <h3 className="heading-secondary text-xl text-electric-emerald mb-2">
-                    Professional Training
+                    Internship
                   </h3>
                   <p className="text-lg font-semibold text-slate-200 mb-1">
-                    Vulnerability Analysis / Penetration Testing
+                    Jr Penetration Tester
                   </p>
                   <p className="text-slate-400">
-                    Digital Egypt Pioneers Initiative • Completed
+                    Byte Capsule • Ongoing
                   </p>
                 </div>
               </div>
@@ -88,7 +88,7 @@ export default memo(function About() {
                   </h3>
                   <div className="space-y-2">
                     <div className="flex items-center justify-between">
-                      <span className="text-slate-200">Arabic</span>
+                      <span className="text-slate-200">Bangla</span>
                       <span className="text-electric-emerald font-semibold">Native</span>
                     </div>
                     <div className="flex items-center justify-between">
@@ -115,15 +115,15 @@ export default memo(function About() {
               <div className="space-y-4 text-slate-300 leading-relaxed">
                 <p>
                   Passionate cybersecurity professional with a strong foundation in 
-                  <span className="text-electric-blue font-semibold"> artificial intelligence</span> and 
-                  <span className="text-electric-purple font-semibold"> ethical hacking</span>. 
+                  <span className="text-electric-blue font-semibold"> Web Application Security</span> and 
+                  <span className="text-electric-purple font-semibold"> Ethical Hacking</span>. 
                   Currently pursuing advanced studies while gaining hands-on experience in 
                   vulnerability assessment and penetration testing.
                 </p>
                 
                 <p>
-                  My mission is to bridge the gap between AI innovation and cybersecurity, 
-                  creating intelligent defense systems that can adapt to emerging threats. 
+                  My goal is to make a huge impact in cybersecurity, 
+                  ethically hacking systems to protect them from threats. 
                   I believe in the power of continuous learning and ethical practices to 
                   build a safer digital future.
                 </p>

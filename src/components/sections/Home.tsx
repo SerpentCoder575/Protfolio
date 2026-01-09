@@ -157,10 +157,10 @@ export default memo(function Home() {
           <div className="space-y-4">
             <h1 className="heading-primary text-5xl md:text-7xl lg:text-8xl">
               <span className="block gradient-text">
-                MOAAZ
+                Sadman Tanim
               </span>
               <span className="block gradient-text" style={{ animationDelay: '0.5s' }}>
-                AWAD
+                Sowad
               </span>
             </h1>
             
@@ -191,7 +191,7 @@ export default memo(function Home() {
                 <div>
                   <p className="text-electric-amber font-semibold text-sm">Development Notice</p>
                   <p className="text-slate-400 text-sm mt-1">
-                    This portfolio is under active development. Some content represents demonstration data.
+                    This portfolio is under active development. Some content might be outdated and some info might be incomplete or empty.
                   </p>
                 </div>
               </div>
@@ -208,7 +208,7 @@ export default memo(function Home() {
               Get In Touch
             </PremiumButton>
             <PremiumButton 
-              href="/Moaaz Awad_CV.pdf" 
+              href="/SadmanTanimSowad_CV.pdf" 
               variant="secondary"
               download
               icon={<Eye className="w-5 h-5" />}
@@ -236,8 +236,8 @@ export default memo(function Home() {
               {/* Avatar Container */}
               <div className="absolute inset-4 rounded-full overflow-hidden group-hover:scale-105 transition-transform duration-500">
                 <img
-                  src="https://avatars.githubusercontent.com/u/123095573?v=4"
-                  alt="Moaaz Awad - Cybersecurity Professional"
+                  src="images/u.jpg"
+                  alt="Sadman Tanim Sowad - Jr Penetration Tester"
                   className="w-full h-full object-cover"
                 />
                 
