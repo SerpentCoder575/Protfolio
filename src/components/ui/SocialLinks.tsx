@@ -13,7 +13,7 @@ const socialLinks = [
   },
   {
     name: 'GitHub',
-    url: 'https://github.com/SerpentCoder575',
+    url: 'https://github.com/0xGhostSerpent',
     icon: FaGithub,
     color: 'text-electric-purple',
     hoverColor: 'hover:text-electric-cyan',
